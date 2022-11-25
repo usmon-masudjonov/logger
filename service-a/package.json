@@ -1,0 +1,42 @@
+{
+  "name": "logger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/usmon-masudjonov/logger.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/usmon-masudjonov/logger/issues"
+  },
+  "homepage": "https://github.com/usmon-masudjonov/logger#readme",
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.3"
+  },
+  "dependencies": {
+    "@types/cls-hooked": "^4.3.3",
+    "@types/correlation-id": "^2.1.2",
+    "@types/express": "^4.17.14",
+    "@types/express-async-wrap": "^1.0.0",
+    "@types/morgan": "^1.9.3",
+    "@types/request-promise-native": "^1.0.18",
+    "@types/uuid": "^8.3.4",
+    "cls-hooked": "^4.2.2",
+    "correlation-id": "^4.0.0",
+    "express": "^4.18.2",
+    "express-async-wrap": "^1.0.0",
+    "morgan": "^1.10.0",
+    "request-promise-native": "^1.0.9",
+    "uuid": "^9.0.0",
+    "winston": "^3.8.2"
+  }
+}
