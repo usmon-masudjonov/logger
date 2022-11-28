@@ -1,0 +1,116 @@
+{
+    "correlationId": "nocorrelation",
+    "level": "\u001b[32minfo\u001b[39m",
+    "message": "App is running on port: 3000",
+    "timestamp": "2022-11-28T11:06:24.537Z"
+}
+{
+    "correlationId": "nocorrelation",
+    "level": "\u001b[32minfo\u001b[39m",
+    "message": "App is running on port: 3000",
+    "timestamp": "2022-11-28T11:09:50.746Z"
+}
+{
+    "correlationId": "db33f0b7-c10b-445e-bff0-3be50b6e4551",
+    "level": "\u001b[32minfo\u001b[39m",
+    "message": "GET /",
+    "timestamp": "2022-11-28T11:10:00.607Z"
+}
+{
+    "correlationId": "db33f0b7-c10b-445e-bff0-3be50b6e4551",
+    "level": "\u001b[32minfo\u001b[39m",
+    "message": "GET 500 / (967 bytes) 10.663 ms",
+    "timestamp": "2022-11-28T11:10:00.621Z"
+}
+{
+    "correlationId": "nocorrelation",
+    "level": "\u001b[32minfo\u001b[39m",
+    "message": "App is running on port: 3000",
+    "timestamp": "2022-11-28T11:13:21.432Z"
+}
+{
+    "correlationId": "72405415-4dd9-42bf-b8f3-24fb05b16b0e",
+    "level": "\u001b[32minfo\u001b[39m",
+    "message": "GET /",
+    "timestamp": "2022-11-28T11:13:24.036Z"
+}
+{
+    "correlationId": "72405415-4dd9-42bf-b8f3-24fb05b16b0e",
+    "level": "\u001b[32minfo\u001b[39m",
+    "message": "GET 500 / (986 bytes) 17.416 ms",
+    "timestamp": "2022-11-28T11:13:24.058Z"
+}
+{
+    "correlationId": "b762380d-bea2-4198-8a30-ca82ab05203b",
+    "level": "\u001b[32minfo\u001b[39m",
+    "message": "GET /",
+    "timestamp": "2022-11-28T11:13:41.303Z"
+}
+{
+    "correlationId": "b762380d-bea2-4198-8a30-ca82ab05203b",
+    "level": "\u001b[32minfo\u001b[39m",
+    "message": "GET 500 / (986 bytes) 6.855 ms",
+    "timestamp": "2022-11-28T11:13:41.314Z"
+}
+{
+    "correlationId": "nocorrelation",
+    "level": "\u001b[32minfo\u001b[39m",
+    "message": "App is running on port: 3000",
+    "timestamp": "2022-11-28T11:13:44.641Z"
+}
+{
+    "correlationId": "b884619b-9a49-47e5-811c-f48991fe2d5e",
+    "level": "\u001b[32minfo\u001b[39m",
+    "message": "GET /",
+    "timestamp": "2022-11-28T11:13:45.311Z"
+}
+{
+    "correlationId": "b884619b-9a49-47e5-811c-f48991fe2d5e",
+    "level": "\u001b[32minfo\u001b[39m",
+    "message": "GET 500 / (987 bytes) 14.682 ms",
+    "timestamp": "2022-11-28T11:13:45.330Z"
+}
+{
+    "correlationId": "nocorrelation",
+    "level": "\u001b[32minfo\u001b[39m",
+    "message": "App is running on port: 3000",
+    "timestamp": "2022-11-28T11:14:11.136Z"
+}
+{
+    "correlationId": "870e0fa6-0c30-4d07-831e-2ea3fe2e6a7d",
+    "level": "\u001b[32minfo\u001b[39m",
+    "message": "GET /",
+    "timestamp": "2022-11-28T11:14:12.415Z"
+}
+{
+    "correlationId": "870e0fa6-0c30-4d07-831e-2ea3fe2e6a7d",
+    "level": "\u001b[32minfo\u001b[39m",
+    "message": "GET 500 / (987 bytes) 20.650 ms",
+    "timestamp": "2022-11-28T11:14:12.440Z"
+}
+{
+    "correlationId": "nocorrelation",
+    "level": "\u001b[32minfo\u001b[39m",
+    "message": "App is running on port: 3000",
+    "timestamp": "2022-11-28T11:14:54.133Z"
+}
+{
+    "correlationId": "nocorrelation",
+    "level": "\u001b[32minfo\u001b[39m",
+    "message": "App is running on port: 3000",
+    "timestamp": "2022-11-28T11:17:12.920Z"
+}
+{
+    "correlationId": "4b402ec8-9996-48e2-b1d6-b5bda4c45295",
+    "level": "\u001b[32minfo\u001b[39m",
+    "message": "GET /",
+    "timestamp": "2022-11-28T11:17:18.017Z"
+}
+{
+    "code": "INVALID_INPUT",
+    "correlationId": "4b402ec8-9996-48e2-b1d6-b5bda4c45295",
+    "level": "\u001b[31merror\u001b[39m",
+    "message": "Something went wrong",
+    "stack": "Error: Something went wrong\n    at InvalidInputException.BaseException [as constructor] (/home/usmon/logger/service-a/core/errors/baseException.ts:9:11)\n    at new InvalidInputException (/home/usmon/logger/service-a/core/errors/invalidInput.ts:6:5)\n    at /home/usmon/logger/service-a/core/app.ts:35:15\n    at step (/home/usmon/logger/service-a/core/app.ts:33:23)\n    at Object.next (/home/usmon/logger/service-a/core/app.ts:14:53)\n    at /home/usmon/logger/service-a/core/app.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (/home/usmon/logger/service-a/core/app.ts:4:12)\n    at /home/usmon/logger/service-a/core/app.ts:33:49\n    at /home/usmon/logger/service-a/node_modules/express-async-wrap/lib/index.js:15:14",
+    "timestamp": "2022-11-28T11:17:18.020Z"
+}

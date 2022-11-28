@@ -4,6 +4,7 @@ import asyncWrap from "express-async-wrap";
 import logger from "../logger";
 import morgan from "morgan";
 import correlatedRequest from "../utils/correlated-request";
+import { InvalidInputException } from "./errors/invalidInput";
 
 export function startApp(): Express {
   const app: Express = express();
@@ -30,14 +31,20 @@ export function startApp(): Express {
   app.get(
     "/",
     asyncWrap(async (req: Request, res: Response) => {
-      logger.info(`The request has been received`);
+      try {
+        throw new InvalidInputException("Something went wrong");
 
-      correlatedRequest.requestPromise({
-        url: "http://localhost:3001",
-        method: "GET",
-      });
+        logger.info(`The request has been received`);
 
-      res.sendStatus(200);
+        correlatedRequest.requestPromise({
+          url: "http://localhost:3001",
+          method: "GET",
+        });
+
+        res.sendStatus(200);
+      } catch (error) {
+        logger.error(error);
+      }
     })
   );
 
